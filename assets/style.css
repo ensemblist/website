@@ -1,0 +1,65 @@
+:root {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+
+    --ratio_down: 1.1;
+    --ratio_up: 1.2;
+
+    --step--5: calc(var(--step--4) / var(--ratio_down));
+    --step--4: calc(var(--step--3) / var(--ratio_down));
+    --step--3: calc(var(--step--2) / var(--ratio_down));
+    --step--2: calc(var(--step--1) / var(--ratio_down));
+    --step--1: calc(var(--step-0) / var(--ratio_down));
+    --step-0: clamp(16px, 3.5vw, 20px);
+    --step-1: calc(var(--step-0) * var(--ratio_up));
+    --step-2: calc(var(--step-1) * var(--ratio_up));
+    --step-3: calc(var(--step-2) * var(--ratio_up));
+    --step-4: calc(var(--step-3) * var(--ratio_up));
+    --step-5: calc(var(--step-4) * var(--ratio_up));
+    --step-6: calc(var(--step-5) * var(--ratio_up));
+}
+
+a {
+    color: #bc4749;
+}
+
+a,
+strong {
+    font-weight: 600;
+}
+
+body {
+    font: 300 var(--step-0) / 1.5 'Crimson Pro', serif;
+    margin: 4rem;
+}
+
+h1 {
+    color: #0d1321;
+    font-size: var(--step-5);
+    margin-bottom: 0;
+    text-wrap: balance;
+}
+
+h2 {
+    font-size: var(--step-3);
+}
+
+html {
+    background-color: #edede9;
+    color: #000;
+    margin: 0 auto;
+    max-width: 68rem;
+}
+
+h1,
+.center,
+.permalink {
+    text-align: center;
+}
+
+.permalink {
+    color: #bdbdbd;
+    margin-bottom: 4rem;
+    margin-top: 0;
+}

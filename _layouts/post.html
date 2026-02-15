@@ -1,0 +1,13 @@
+{% include header.html %}
+        <article>
+            <h1>{{ page.title }}</h1>
+            <p class="permalink">
+                <a href="{{ page.url }}">Permalink</a> |
+                <a href="/">Archive</a> |
+                <a href="/feed">RSS</a> |
+                <a href="/about">About</a> |
+            </p>
+
+            {{ content }}
+        </article>
+{% include footer.html %}
