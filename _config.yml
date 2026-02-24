@@ -3,7 +3,8 @@ encoding: UTF-8
 future: false
 markdown: kramdown
 permalink: /:title
-url: the-ensemblist.uk
+url: https://the-ensemblist.uk
+author: The Ensemblist
 title: The Ensemblist
 sass:
   style: compressed
