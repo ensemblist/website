@@ -1,8 +1,8 @@
 <nav role="primary" class="flow">
- {% if page.collection == "posts" %}
-    <a href="{{ site.url }}">← Home</a> |
-    <a href="{{ page.url }}"># Permalink </a> |
+ <a href="{{ site.url }}">← Home</a> |
+ <a href="/about">About</a> |
+  <a href="/feed">RSS</a>
+  {% if page.collection == "posts" %}
+    | <a href="{{ page.url }}"># Permalink </a>
  {% endif %}
- <a href="/feed">RSS</a> |
- <a href="/about">About</a>
 </nav>
