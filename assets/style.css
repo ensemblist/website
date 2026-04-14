@@ -16,24 +16,6 @@
     --step-6: calc(var(--step-5) * var(--ratio_up));
 }
 
-a {
-    color: #bc4749;
-}
-
-a,
-strong {
-    font-weight: 600;
-}
-
-body {
-    font: 300 var(--step-0) / 1.5 'Crimson Pro', 'Jetbrains Mono', 'Gill Sans', serif;
-    margin: 4rem;
-}
-
-h2 {
-    font-size: var(--step-3);
-}
-
 html {
     background-color: #edede9;
     color: #000;
@@ -41,10 +23,9 @@ html {
     max-width: 72rem;
 }
 
-h1,
-.center,
-.permalink {
-    text-align: center;
+body {
+    font: 300 var(--step-0) / 1.5 'Crimson Pro', 'Jetbrains Mono', 'Gill Sans', serif;
+    margin: 4rem;
 }
 
 h1 {
@@ -54,8 +35,26 @@ h1 {
     text-wrap: balance;
 }
 
+
+h1,
+nav,
+.center,
+.permalink {
+    text-align: center;
+}
+
+nav,
 .permalink {
     color: #bdbdbd;
     margin-bottom: 4rem;
     margin-top: 0;
+}
+
+a {
+    color: #bc4749;
+}
+
+a,
+strong {
+    font-weight: 600;
 }
