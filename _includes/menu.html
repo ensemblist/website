@@ -1,5 +1,9 @@
-<nav class="permalink">
- <a href="{{ page.url }}">Permalink</a> |
+<nav role="primary">
+ {% if post %}
+   <a href="{{ page.url }}">Permalink #</a> |
+ {% else %}
+   <a href="{{ site.url }}">Home</a> |
+ {% endif %}
  <a href="/">Archive</a> |
  <a href="/feed">RSS</a> |
  <a href="/about">About</a>
