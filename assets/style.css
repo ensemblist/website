@@ -35,8 +35,9 @@ article {
 
 footer {
     margin-top: 4rem;
-    font-size: 0.75rem;
+    font: 300 0.8rem/1.5;
     color: var(--footer);
+    text-align: center;
 }
 
 h1 {
