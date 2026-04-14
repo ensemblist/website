@@ -1,5 +1,5 @@
 <nav role="primary" class="flow">
- {% if post %}
+ {% if page.collection == "posts" %}
    <a href="{{ page.url }}">Permalink #</a> |
  {% else %}
    <a href="{{ site.url }}">Home</a> |
