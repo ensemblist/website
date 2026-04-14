@@ -50,22 +50,9 @@ h1,
 h1 {
     color: #0d1321;
     font-size: var(--step-5);
-    line-height: 1.2;
-    --h1-lh: calc(var(--step-5) * 1.2); 
     margin-bottom: 0;
     text-wrap: balance;
-    display: flex;
-    align-items: flex-end;
 }
-
-span.the {
-    font-variant: small-caps;
-    font-size: calc(var(--step-5) / 4);
-    line-height: 1;
-    vertical-align: calc(var(--step-5) * 0.5);
-    margin-right: 0.1em;
-}
-
 
 .permalink {
     color: #bdbdbd;
