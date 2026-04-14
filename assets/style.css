@@ -29,6 +29,10 @@ nav {
     margin-bottom: 4rem;
 }
 
+article {
+  min-height: 50vh;
+}
+
 footer {
     margin-top: 4rem;
     font-size: 0.75rem;
