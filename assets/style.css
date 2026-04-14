@@ -35,6 +35,8 @@ h1 {
     font-size: var(--step-5);
     margin-bottom: 0;
     text-wrap: balance;
+    display: flex;
+    align-items: flex-end;
 }
 
 h2 {
@@ -53,6 +55,19 @@ h1,
 .permalink {
     text-align: center;
 }
+
+span.the {
+  display: inline-block;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  width: 1lh;
+  letter-spacing: calc((1lh - 3em) / 3);
+  align-self: flex-end;
+  margin-bottom: 0;
+}
+
+
+
 
 .permalink {
     color: #bdbdbd;
