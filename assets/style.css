@@ -12,7 +12,7 @@ html {
     color: var(--text);
     margin: 0 auto;
     min-width: 20rem;
-    max-width: 62rem;
+    max-width: 82rem;
     
 }
 
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    font: 300 1.5rem/2.0 'Crimson Pro', 'Jetbrains Mono', 'Gill Sans', serif;
+    font: 300 1.5rem/1.5 'Crimson Pro', 'Jetbrains Mono', 'Gill Sans', serif;
     margin: 4rem;
 }
 
