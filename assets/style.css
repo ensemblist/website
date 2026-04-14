@@ -30,15 +30,6 @@ body {
     margin: 4rem;
 }
 
-h1 {
-    color: #0d1321;
-    font-size: var(--step-5);
-    margin-bottom: 0;
-    text-wrap: balance;
-    display: flex;
-    align-items: flex-end;
-}
-
 h2 {
     font-size: var(--step-3);
 }
@@ -56,15 +47,28 @@ h1,
     text-align: center;
 }
 
-span.the {
-  display: inline-block;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  width: 1lh;
-  letter-spacing: calc((1lh - 3em) / 3);
-  align-self: flex-end;
-  margin-bottom: 0;
+h1 {
+    color: #0d1321;
+    font-size: var(--step-5);
+    line-height: 1.2;
+    --h1-lh: calc(var(--step-5) * 1.2); 
+    margin-bottom: 0;
+    text-wrap: balance;
+    display: flex;
+    align-items: flex-end;
 }
+
+span.the {
+    display: inline-block;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    width: var(--h1-lh); 
+    letter-spacing: calc((var(--h1-lh) - 3em) / 3);
+    align-self: flex-end;
+    line-height: 1
+    margin-bottom: 0;
+}
+
 
 
 
