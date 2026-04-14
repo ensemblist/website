@@ -1,11 +1,7 @@
 :root {
-    -moz-text-size-adjust: none;
-    -webkit-text-size-adjust: none;
     text-size-adjust: none;
-
     --ratio_down: 1.1;
     --ratio_up: 1.2;
-
     --step--5: calc(var(--step--4) / var(--ratio_down));
     --step--4: calc(var(--step--3) / var(--ratio_down));
     --step--3: calc(var(--step--2) / var(--ratio_down));
@@ -30,7 +26,7 @@ strong {
 }
 
 body {
-    font: 300 var(--step-0) / 1.5 'Crimson Pro', serif;
+    font: 300 var(--step-0) / 1.5 'Crimson Pro', 'Jetbrains Mono', 'Gill Sans', serif;
     margin: 4rem;
 }
 
@@ -49,7 +45,7 @@ html {
     background-color: #edede9;
     color: #000;
     margin: 0 auto;
-    max-width: 68rem;
+    max-width: 72rem;
 }
 
 h1,
