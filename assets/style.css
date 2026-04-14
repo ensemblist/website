@@ -1,6 +1,6 @@
 html {
-    background-color: #edede9;
-    color: #000;
+    background-color: #f0ead2;
+    color: #6c584c;
     margin: 0 auto;
     max-width: 62rem;
 }
@@ -11,8 +11,19 @@ body {
     
 }
 
+nav {
+    margin-bottom: 4rem;
+    margin-top: 0;
+}
+
+footer {
+    margin: 4rem;
+    font-size: 0.75rem;
+    color: #dde5b6;
+}
+
 h1 {
-    color: #0d1321;
+    color: #adc178;
     margin-bottom: 0;
     text-wrap: balance;
 }
@@ -23,12 +34,7 @@ nav,
     text-align: center;
 }
 
-nav {
-    margin-bottom: 4rem;
-    margin-top: 0;
-}
-
 a {
-    color: #bc4749;
+    color: #a98467;
     font-weight: 600;
 }
