@@ -4,13 +4,20 @@
     --heading: #52528C;
     --link: #372554;
     --footer: #231123;
+    --flow-space: 1.5em;
 }
 
 html {
     background: var(--bg);
     color: var(--text);
     margin: 0 auto;
+    min-width: 20rem;
     max-width: 62rem;
+    
+}
+
+.flow>*+* {
+    margin-block-start: var(--flow-space, 1em);
 }
 
 body {
@@ -19,11 +26,11 @@ body {
 }
 
 nav {
-    margin: 0 0 4rem 0;
+    margin-bottom: 4rem;
 }
 
 footer {
-    margin: 4rem;
+    margin-top: 4rem;
     font-size: 0.75rem;
     color: var(--footer);
 }
