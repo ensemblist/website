@@ -1,36 +1,18 @@
-:root {
-    text-size-adjust: none;
-    --ratio_down: 1.1;
-    --ratio_up: 1.2;
-    --step--5: calc(var(--step--4) / var(--ratio_down));
-    --step--4: calc(var(--step--3) / var(--ratio_down));
-    --step--3: calc(var(--step--2) / var(--ratio_down));
-    --step--2: calc(var(--step--1) / var(--ratio_down));
-    --step--1: calc(var(--step-0) / var(--ratio_down));
-    --step-0: clamp(16px, 3.5vw, 20px);
-    --step-1: calc(var(--step-0) * var(--ratio_up));
-    --step-2: calc(var(--step-1) * var(--ratio_up));
-    --step-3: calc(var(--step-2) * var(--ratio_up));
-    --step-4: calc(var(--step-3) * var(--ratio_up));
-    --step-5: calc(var(--step-4) * var(--ratio_up));
-    --step-6: calc(var(--step-5) * var(--ratio_up));
-}
-
 html {
     background-color: #edede9;
     color: #000;
     margin: 0 auto;
-    max-width: 72rem;
+    max-width: 62rem;
 }
 
 body {
-    font: 300 var(--step-0) / 1.5 'Crimson Pro', 'Jetbrains Mono', 'Gill Sans', serif;
+    font: 300 'Crimson Pro', 'Gill Sans', 'Jetbrains Mono', serif;
     margin: 4rem;
+    
 }
 
 h1 {
     color: #0d1321;
-    font-size: var(--step-5);
     margin-bottom: 0;
     text-wrap: balance;
 }
@@ -42,7 +24,6 @@ nav,
 }
 
 nav {
-    color: #bdbdbd;
     margin-bottom: 4rem;
     margin-top: 0;
 }
