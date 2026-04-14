@@ -1,6 +1,14 @@
+:root {
+    --bg: #7C9EB2;
+    --text: #000;
+    --heading: #52528C;
+    --link: #372554;
+    --footer: #231123;
+}
+
 html {
-    background-color: #7C9EB2;
-    color: #000;
+    background: var(--bg);
+    color: var(--text);
     margin: 0 auto;
     max-width: 62rem;
 }
@@ -8,33 +16,31 @@ html {
 body {
     font: 300 'Crimson Pro', 'Gill Sans', 'Jetbrains Mono', serif;
     margin: 4rem;
-    
 }
 
 nav {
-    margin-bottom: 4rem;
-    margin-top: 0;
+    margin: 0 0 4rem 0;
 }
 
 footer {
     margin: 4rem;
     font-size: 0.75rem;
-    color: #231123;
+    color: var(--footer);
 }
 
 h1 {
-    color: #52528C;
+    color: var(--heading);
     margin-bottom: 0;
     text-wrap: balance;
+    text-align: center;
 }
 
-h1,
 nav,
 .center {
     text-align: center;
 }
 
 a {
-    color: #372554;
+    color: var(--link);
     font-weight: 600;
 }
