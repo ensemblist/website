@@ -35,16 +35,13 @@ h1 {
     text-wrap: balance;
 }
 
-
 h1,
 nav,
-.center,
-.permalink {
+.center {
     text-align: center;
 }
 
-nav,
-.permalink {
+nav {
     color: #bdbdbd;
     margin-bottom: 4rem;
     margin-top: 0;
@@ -52,9 +49,5 @@ nav,
 
 a {
     color: #bc4749;
-}
-
-a,
-strong {
     font-weight: 600;
 }
