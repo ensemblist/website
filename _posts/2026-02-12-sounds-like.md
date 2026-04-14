@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Sounds like"
+title: "Sounds Like"
 date: 2026-02-12
 
 ---
