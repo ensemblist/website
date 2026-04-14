@@ -10,4 +10,4 @@ Works cover a range of themes and experiences, in various forms from traditional
 
 Content is available as an RSS feed. Other formats including ebooks may follow.
 
-The Author welcomes feedback via email, _feedback @ the-ensemblist.uk_.
+The Author welcomes feedback via email, _feedback@<!--example.com-->the-ensemblist.uk_.
