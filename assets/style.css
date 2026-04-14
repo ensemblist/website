@@ -1,9 +1,9 @@
 :root {
-    --bg: #EDDDD4;
-    --text: #283D3B;
-    --heading: #52528C;
-    --link: #772E25;
-    --footer: #197278;
+    --bg: #edede9;
+    --text: #000;
+    --heading: #0d1321;
+    --link: #bc4749;
+    --footer: #bdbdbd;
     --flow-space: 1.5em;
 }
 
