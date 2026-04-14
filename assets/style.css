@@ -1,6 +1,6 @@
 html {
-    background-color: #f0ead2;
-    color: #6c584c;
+    background-color: #7C9EB2;
+    color: #000;
     margin: 0 auto;
     max-width: 62rem;
 }
@@ -19,11 +19,11 @@ nav {
 footer {
     margin: 4rem;
     font-size: 0.75rem;
-    color: #dde5b6;
+    color: #231123;
 }
 
 h1 {
-    color: #adc178;
+    color: #52528C;
     margin-bottom: 0;
     text-wrap: balance;
 }
@@ -35,6 +35,6 @@ nav,
 }
 
 a {
-    color: #a98467;
+    color: #372554;
     font-weight: 600;
 }
