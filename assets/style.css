@@ -59,18 +59,12 @@ h1 {
 }
 
 span.the {
-    display: inline-block;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    width: var(--h1-lh); 
-    letter-spacing: calc((var(--h1-lh) - 3em) / 3);
-    align-self: flex-end;
-    line-height: 1
-    margin-bottom: 0;
+    font-variant: small-caps;
+    font-size: calc(var(--step-5) / 4);
+    line-height: 1;
+    vertical-align: calc(var(--step-5) * 0.5);
+    margin-right: 0.1em;
 }
-
-
-
 
 
 .permalink {
