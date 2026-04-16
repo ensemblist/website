@@ -35,11 +35,9 @@ article {
 
 footer {
     margin-top: 4rem;
-      P {
-        font: 0.8rem/1.5;
-        color: var(--footer);
-        text-align: center;
-      }
+    font-size: 1rem;
+    color: var(--footer);
+    text-align: center;
 }
 
 h1 {
