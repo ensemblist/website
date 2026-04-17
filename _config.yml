@@ -10,6 +10,12 @@ sass:
   style: compressed
 plugins:
   - jekyll-feed
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
 include:
   - ".well-known"
 exclude:
