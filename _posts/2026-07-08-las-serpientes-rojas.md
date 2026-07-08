@@ -11,7 +11,7 @@ Promesas y fracasos.
 El hedor de las manos ensangrentadas,  
 El hedor de las manos ensangrentadas,  
 El olor de la muerte.  
-￼
+
 Cuidado con las serpientes rojas,  
 Cuidado con las serpientes rojas,  
 Promesas y fracasos.  
