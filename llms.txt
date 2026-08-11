@@ -1,0 +1,11 @@
+# The Ensemblist
+
+> A collection of written works and thought experiments using language. Works cover a range of themes and experiences, in various forms from traditional to modern.
+
+- Content is published by a single author and available as an RSS feed; other formats such as ebooks may follow.
+- Feedback is welcomed by email at feedback@the-ensemblist.uk.
+
+## About
+
+- [About](https://the-ensemblist.uk/about): Description of the collection and how to get in touch.
+- [RSS feed](https://the-ensemblist.uk/feed): Subscribe to new works.
