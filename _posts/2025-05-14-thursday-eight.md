@@ -10,4 +10,4 @@ Stand outside and clap our nurses,
 
 But they are not miracle workers,
 
-Because they can not fix ME.
+Because they cannot fix ME.
