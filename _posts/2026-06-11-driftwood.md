@@ -16,6 +16,6 @@ Burning and baking,
 Life this bleak.  
 
 Into the future,  
-Wake up — morning or night.  
+Wake up, morning or night.  
 Driftwood still drifting,  
 Into the deep.  
